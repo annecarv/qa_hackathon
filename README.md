@@ -1,7 +1,8 @@
 # # qa_hackathon
 
 #### Uma feature pra cada equipe desenvolver
-#### Criar o arquivo feature em Gherkin - Esquematizar o arquivo feature com 5 cenários
+#### Script de Testes
+#### Criar o arquivo feature em Gherkin - Esquematizar o arquivo feature com 5 cenários (Serão 5 arquivos features?!)
 #### Fazer a automação em Selenium
 #### Report de Bug (Criado ao rodar os testes)
 #### Screenshot das telas (Criado ao rodar os testes)
