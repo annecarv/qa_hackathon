@@ -71,4 +71,4 @@ jobs:
         uses: actions/deploy-pages@v2
 
       - name: Link Relatorio
-        run: echo 'https://mickhill-qa.github.io/teste-automatizado-it-talent-qa-2023-1'
+        run: echo 'https://annecarv.github.io/qa_hackathon/'
