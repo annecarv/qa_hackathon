@@ -1,14 +1,14 @@
 package page_objects;
 
+import base_class.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ResultadosPesquisaGooglePage {
+public class ResultadosPesquisaGooglePage extends BasePage {
     private By txtResultadosPesquisa = By.id("result-stats");
-    private WebDriver driver;
 
     public ResultadosPesquisaGooglePage(WebDriver navegador)  {
-        this.driver = navegador;
+        super(navegador);
     }
 
     public int getResultPesquisa() {
