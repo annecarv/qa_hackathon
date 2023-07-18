@@ -8,7 +8,7 @@ import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Quando;
 import page_objects.LoginComSucessoPage;
 
-public class LoginComSucessoSteps extends BaseSteps {
+public class LoginSteps extends BaseSteps {
 
 	LoginComSucessoPage paginaLogin = new LoginComSucessoPage(browser);
 

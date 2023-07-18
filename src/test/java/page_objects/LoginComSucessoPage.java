@@ -11,7 +11,7 @@ public class LoginComSucessoPage extends BasePage {
 	private By inputUsername = By.id("username")  ;
 	private By inputPassword  = By.id("password")  ;;
 	private By btnLogin = By.xpath("//*[@id=\"login\"]/button");
-	private By messagemSucesso = By.xpath("//*[@id=\"flash\"]");
+	private By messagemSucesso = By.id("flash-messages");
 
 	public LoginComSucessoPage(WebDriver _browser) {
 		super(_browser);

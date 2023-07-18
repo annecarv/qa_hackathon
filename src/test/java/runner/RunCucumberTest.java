@@ -28,7 +28,7 @@ import java.util.List;
         "html:target/cucumber/index.html",
         "json:target/cucumber/index.json"
     }
-    ,tags = "@tagLoginComSucessoTomSmith"
+    ,tags = "@cadastro_seu_barriga"
 
 
     /**
